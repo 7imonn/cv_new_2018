@@ -1,0 +1,42 @@
+<!doctype html>
+<!-- https://github.com/rampatra/animatescroll.js -->
+<!-- https://alvarotrigo.com/pagePiling/#page2 -->
+<!-- https://github.com/umarwebdeveloper/jquery-css-skills-bar -->
+<!-- https://kimmobrunfeldt.github.io/progressbar.js/ -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="">
+    <title></title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+
+</head>
+
+<body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="node_modules/particles.js/particles.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/animatescroll.js"></script>
+    <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+
+    <section id="particles-js">
+        <div class="landing title">
+            <span class="landing hi">Hi,</span><br/><span class="landing name">I am Timon</span>
+        </div>
+        <a id="godown" onclick="$('#me').animatescroll({scrollSpeed:3000,easing:'easeOutBounce'});"><ion-icon name="ios-arrow-down"></ion-icon></a>
+    </section>
+    <section id="me">
+        <div class="grid-item-box1">
+            <img src="/assets/meee.jpg">
+        </div>
+        <div class="grid-item-box2">
+            <span>About me</span>
+        </div>
+    </section>
+</body>
+
+</html>

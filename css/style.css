@@ -1,0 +1,101 @@
+#particles-js {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #293133;
+    /* background-image: url("../assets/meee.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing.title {
+    opacity: 0.6;
+    background-color: #CCCCCC;
+    font-size: 9em;
+    top: 50vh;
+    position: absolute;
+    padding: 0.2em;
+}
+
+.landing.hi {
+    color: #821122;
+}
+
+.landing.name {
+    color: #293133;
+}
+
+#godown {
+    font-size: 4em;
+    color: #CCCCCC;
+    position: absolute;
+    left: 50%;
+    bottom: 2vh;
+}
+
+#godown:hover {
+    color: #821122;
+    cursor: pointer;
+}
+
+#godown ion-icon {
+    -webkit-animation: sdb06 1.5s infinite;
+    animation: sdb02 1.5s infinite;
+}
+
+@-webkit-keyframes sdb02 {
+    0% {
+        -webkit-transform: rotateY(0);
+        opacity: .3;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotateY(720deg);
+        opacity: .3;
+    }
+}
+
+@keyframes sdb02 {
+    0% {
+        transform: rotateY(0);
+        opacity: .3;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotateY(720deg);
+        opacity: .3;
+    }
+}
+
+#me {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 30vw auto;
+    background-color: #821122;
+    text-align: center;
+    color: #293133;
+}
+
+#me img {
+    float: right;
+}
+
+#me .grid-item-box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#me .grid-item-box2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#me .grid-item-box2 span {
+    font-size: 2em;
+    padding-top: 1em;
+    display: block;
+}
